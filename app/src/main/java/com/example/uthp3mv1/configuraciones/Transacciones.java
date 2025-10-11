@@ -22,7 +22,7 @@ public class Transacciones
                     apellidos + " TEXT NOT NULL, " +
                     edad + " INTEGER, " +
                     correo + " TEXT UNIQUE, " +
-                    foto + " TEXT, ";
+                    foto + " TEXT) ";
 
     public static final String DROPTABLEPERSONAS = "DROP TABLE IF EXIST" + TABLENAME;
 
